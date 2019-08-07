@@ -1,0 +1,247 @@
+.top-nav {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 0.3125rem;
+  box-sizing: border-box;
+}
+.top-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.top-nav ul span {
+  color: red;
+}
+.top-nav ul li:nth-child(1) {
+  position: relative;
+}
+.top-nav ul li:nth-child(1) a {
+  position: absolute;
+  top: 0.9375rem;
+  left: 1.5625rem;
+  border-top: 0.46875rem solid red;
+  border-bottom: 0.46875rem solid transparent;
+  border-left: 0.46875rem solid transparent;
+  border-right: 0.46875rem solid transparent;
+}
+.top-nav ul li:nth-child(2) a {
+  font-size: 1.25rem;
+}
+.top-nav ul li:nth-child(3) a {
+  display: block;
+  width: 100%;
+}
+.top-nav ul li:nth-child(3) a img {
+  width: 1.5625rem;
+}
+.banner {
+  width: 100%;
+}
+.banner a {
+  display: block;
+  width: 100%;
+}
+.banner a img {
+  width: 100%;
+}
+.hot-nav {
+  width: 100%;
+  padding: 0.3125rem;
+  box-sizing: border-box;
+}
+.hot-nav .top {
+  padding-bottom: 0.3125rem;
+  box-sizing: border-box;
+}
+.hot-nav .top ul {
+  display: flex;
+}
+.hot-nav .top ul li {
+  flex: 1;
+}
+.hot-nav .top ul li a {
+  display: block;
+}
+.hot-nav .top ul li a img {
+  width: 100%;
+}
+.hot-nav .top ul li:nth-child(2) {
+  padding: 0 0.3125rem;
+  box-sizing: border-box;
+}
+.hot-nav .bot {
+  padding-bottom: 0.3125rem;
+  box-sizing: border-box;
+}
+.hot-nav .bot ul {
+  display: flex;
+}
+.hot-nav .bot ul li {
+  flex: 1;
+}
+.hot-nav .bot ul li a {
+  display: block;
+}
+.hot-nav .bot ul li a img {
+  width: 100%;
+}
+.hot-nav .bot ul li:nth-child(2) {
+  padding: 0 0.3125rem;
+  box-sizing: border-box;
+}
+.chance {
+  width: 100%;
+  border-top: 0.0625rem solid #ccc;
+}
+.chance .top-chance {
+  border-bottom: 0.0625rem solid #ccc;
+}
+.chance .top-chance ul {
+  display: flex;
+}
+.chance .top-chance ul li {
+  flex: 1;
+  border-right: 0.0625rem solid #ccc;
+}
+.chance .top-chance ul li a {
+  display: block;
+}
+.chance .top-chance ul li a img {
+  width: 100%;
+}
+.chance .top-chance ul li:nth-child(4) {
+  border-right: 0 none;
+}
+.chance .bot-chance {
+  border-bottom: 0.0625rem solid #ccc;
+}
+.chance .bot-chance ul {
+  display: flex;
+}
+.chance .bot-chance ul li {
+  flex: 1;
+  border-right: 0.0625rem solid #ccc;
+}
+.chance .bot-chance ul li a {
+  display: block;
+}
+.chance .bot-chance ul li a img {
+  width: 100%;
+}
+.chance .bot-chance ul li:nth-child(4) {
+  border-right: 0 none;
+}
+.parent-son {
+  width: 100%;
+  margin: 1.25rem 0rem;
+  border-bottom: 0.0625rem solid #ccc;
+}
+.parent-son .left {
+  float: left;
+  width: 49.8%;
+  border-right: 0.0625rem solid #ccc;
+}
+.parent-son .left a {
+  display: block;
+}
+.parent-son .left a img {
+  width: 100%;
+}
+.parent-son .right {
+  float: left;
+  width: 49.8%;
+}
+.parent-son .right a {
+  display: block;
+  border-bottom: 0.0625rem solid #ccc;
+}
+.parent-son .right a img {
+  width: 100%;
+}
+.parent-son .right a:nth-child(2) {
+  border-bottom: 0 none;
+}
+.hot-activity {
+  width: 100%;
+}
+.hot-activity h4 {
+  padding-left: 0.3125rem;
+  box-sizing: border-box;
+  font-size: 0.9375rem;
+}
+.hot-activity li {
+  width: 100%;
+  border-bottom: 0.0625rem solid #ccc;
+  box-sizing: border-box;
+}
+.hot-activity li a {
+  display: block;
+}
+.hot-activity li a img {
+  width: 100%;
+}
+.hot-activity li:nth-child(1) {
+  border-top: 0.0625rem solid #ccc;
+}
+.week {
+  width: 100%;
+  margin-top: 0.625rem;
+}
+.week .week-nav {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-top: 0.0625rem solid #ccc;
+}
+.week .week-nav ul {
+  display: flex;
+}
+.week .week-nav ul li {
+  flex: 1;
+}
+.week .week-nav ul li a {
+  display: block;
+}
+.week .week-nav ul li a:hover {
+  border-bottom: 0.0625rem solid red;
+}
+.week .week-content {
+  width: 100%;
+  margin-bottom: 0.9375rem;
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #ccc;
+  box-sizing: border-box;
+}
+.week .week-content img {
+  width: 100%;
+}
+.week .week-content p {
+  padding: 0.3125rem 0;
+  box-sizing: border-box;
+  font-size: 0.9375rem;
+}
+.see {
+  width: 100%;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #ccc;
+  box-sizing: border-box;
+}
+.see a {
+  width: 100%;
+}
+.login {
+  width: 100%;
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  padding: 0 0.625rem;
+  box-sizing: border-box;
+  background-color: blueviolet;
+}
+.login a {
+  color: #fff;
+}

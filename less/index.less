@@ -1,0 +1,339 @@
+// 1、约定一下将当前UI图分为多少份？
+@size: 20;
+
+// 2、计算当前UI图每一份的大小
+@dx: 640rem / @size;
+
+
+
+// 顶部导航
+.top-nav {
+    width: 100%;
+    height: 80rem/@dx;
+    line-height: 80rem/@dx;
+    padding: 0 10rem/@dx;
+    box-sizing: border-box;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            color: red;
+        }
+
+        li:nth-child(1) {
+            position: relative;
+        }
+
+        li:nth-child(1) a {
+            position: absolute;
+            top: 30rem/@dx;
+            left: 50rem/@dx;
+            border-top: 15rem/@dx solid red;
+            border-bottom: 15rem/@dx solid transparent;
+            border-left: 15rem/@dx solid transparent;
+            border-right: 15rem/@dx solid transparent;
+
+        }
+
+        li:nth-child(2) a {
+            font-size: 40rem/@dx;
+        }
+
+        li:nth-child(3) a {
+            display: block;
+            width: 100%;
+        }
+
+        li:nth-child(3) a img {
+            width: 50rem/@dx;
+        }
+    }
+}
+
+// 广告
+.banner {
+    width: 100%;
+
+    a {
+        display: block;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// 热门景点导航
+.hot-nav {
+    width: 100%;
+    padding: 10rem/@dx;
+    box-sizing: border-box;
+
+    .top {
+        padding-bottom: 10rem/@dx;
+        box-sizing: border-box;
+
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            li:nth-child(2) {
+                padding: 0 10rem/@dx;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .bot {
+        padding-bottom: 10rem/@dx;
+        box-sizing: border-box;
+
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            li:nth-child(2) {
+                padding: 0 10rem/@dx;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+// 机票签证
+.chance {
+    width: 100%;
+    border-top: 2rem/@dx solid #ccc;
+
+    .top-chance {
+        border-bottom: 2rem/@dx solid #ccc;
+
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+                border-right: 2rem/@dx solid #ccc;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            li:nth-child(4) {
+                border-right: 0 none;
+            }
+        }
+    }
+
+    .bot-chance {
+        border-bottom: 2rem/@dx solid #ccc;
+
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+                border-right: 2rem/@dx solid #ccc;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            li:nth-child(4) {
+                border-right: 0 none;
+            }
+        }
+    }
+}
+
+// 驴悦亲子
+.parent-son {
+    width: 100%;
+    margin: 40rem/@dx 0rem;
+    border-bottom: 2rem/@dx solid #ccc;
+
+
+    .left {
+        float: left;
+        width: 49.8%;
+        border-right: 2rem/@dx solid #ccc;
+
+
+        a {
+            display: block;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .right {
+        float: left;
+        width: 49.8%;
+
+        a {
+            display: block;
+            border-bottom: 2rem/@dx solid #ccc;
+
+            img {
+                width: 100%;
+
+            }
+        }
+
+        a:nth-child(2) {
+            border-bottom: 0 none;
+        }
+    }
+}
+
+// 热门活动 
+.hot-activity {
+    width: 100%;
+
+
+    h4 {
+        padding-left: 10rem/@dx;
+        box-sizing: border-box;
+        font-size: 30rem/@dx;
+    }
+
+    li {
+        width: 100%;
+        border-bottom: 2rem/@dx solid #ccc;
+        box-sizing: border-box;
+
+
+        a {
+            display: block;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    li:nth-child(1) {
+        border-top: 2rem/@dx solid #ccc;
+    }
+}
+
+// 度周末 度长假 
+.week {
+    width: 100%;
+    margin-top: 20rem/@dx;
+
+    .week-nav {
+        width: 100%;
+        height: 80rem/@dx;
+        line-height: 80rem/@dx;
+        text-align: center;
+        border-top: 2rem/@dx solid #ccc;
+
+        ul {
+            display: flex;
+
+            li {
+
+                flex: 1;
+
+                a {
+                    display: block;
+                    // width: 100rem/@dx;
+                    // height: 80rem/@dx;
+                    // line-height: 80rem/@dx;
+
+                    // width: 50%;
+
+                    &:hover {
+                        border-bottom: 2rem/@dx solid red;
+                    }
+                }
+            }
+        }
+    }
+
+    .week-content {
+        width: 100%;
+        margin-bottom: 30rem/@dx;
+        background-color: #fff;
+        border-bottom: 2rem/@dx solid #ccc;
+        box-sizing: border-box;
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            padding: 10rem/@dx 0;
+            box-sizing: border-box;
+            font-size: 30rem/@dx;
+        }
+    }
+}
+
+// 查看跟多 
+.see {
+    width: 100%;
+    height: 60rem/@dx;
+    line-height: 60rem/@dx;
+    margin-bottom: 30rem/@dx;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 2rem/@dx solid #ccc;
+    box-sizing: border-box;
+
+    a {
+        width: 100%;
+    }
+}
+
+// 免费注册 登录
+.login {
+    width: 100%;
+    height: 70rem/@dx;
+    line-height: 70rem/@dx;
+    padding: 0 20rem/@dx ;
+    box-sizing: border-box;
+    background-color: blueviolet;
+
+    a {
+        color: #fff;
+    }
+}
